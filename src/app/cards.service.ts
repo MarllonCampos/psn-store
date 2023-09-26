@@ -39,7 +39,7 @@ export class CardsService {
     {
       gameCover: 'assets/bt-1.jpg',
       gameLabel: 'CROSSPLAY',
-      gamePrice: 'R$ 599,90',
+      gamePrice: 'R$ 299,90',
       gameType: 'DIGITAL | PS4 | CROSSPLAY | PS5',
     },
   ];
