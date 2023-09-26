@@ -1,0 +1,32 @@
+.card-price-tag {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  padding: 4px 8px;
+  background-color: #0d0d0dde;
+  color: antiquewhite;
+  font-family: Calibri;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+
+  &__title {
+    color: #7d7d7d;
+    margin-bottom: 4px;
+  }
+
+  &__value {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__console {
+    display: flex;
+    span {
+      color: aqua;
+      font-weight: bold;
+      margin-right: 6px;
+      line-height: 15px;
+    }
+  }
+}
